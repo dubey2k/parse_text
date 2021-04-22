@@ -14,10 +14,15 @@ dependencies:
 ### Text Format for Detection
 
 URL : "This https://www.google.com/ will be detected as URL and navigate you to browser"
+
 Email : "This example@email.com will be detected as email and navigate you to email app with sample subject and body"
+
 Mobile : "This +919898989898 and 9898989898 will be detected as Phone Number and navigate you to Dialer"
+
 Bold : "This \*Sample Text\* will be Bold"
+
 Italic : "This \_Sample Text\_ will be Italic"
+
 Cross : "This ~Sample Text~ will be Cross"
 
 
