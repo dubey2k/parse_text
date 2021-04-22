@@ -71,13 +71,9 @@ ParseText(
 ### Parameters for detected email text
 
 |   parameter   |        description                                                                         |  default                          |
-| ------------- | ------------------------------------------------------------------------------------------ | --------------------------------- |              
 |   emailColor  |       The Color of text detected as Email                                                  |  Color.blue                       |
-| ------------- | ------------------------------------------------------------------------------------------ | --------------------------------- |              
 |   emailFW     |       The FontWeight of text detected as Email                                             |  FontWeight.w600                  |
-| ------------- | ------------------------------------------------------------------------------------------ | --------------------------------- |              
 |   emailSize   |       The Size of text detected as Email                                                   |  size (same as UnDetected Text)   |
-| ------------- | ------------------------------------------------------------------------------------------ | --------------------------------- |              
 |   emailStyle  |       The FontStyle of text detected as Email                                              |  FontStyle.normal                 |
                      
 ### Parameters for detected mobile text             
