@@ -22,3 +22,8 @@
 
 - Bug Fixes!!
 - README.md updated
+
+## 0.0.5
+
+- Bug Fixes!!
+- README.md updated
