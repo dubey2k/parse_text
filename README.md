@@ -52,7 +52,8 @@ ParseText(
 )
 ```
 
-![img](https://github.com/dubey2k/parse_text/blob/master/screenshots/parse_text_default.jpg) ![img](https://github.com/dubey2k/parse_text/blob/master/screenshots/parse_text_colors.jpg)
+![img](https://github.com/dubey2k/parse_text/blob/master/screenshots/parse_text_default.jpg) <!-- .element height="50%" width="50%" -->
+![img](https://github.com/dubey2k/parse_text/blob/master/screenshots/parse_text_colors.jpg) <!-- .element height="50%" width="50%" -->
 
 
 
