@@ -13,17 +13,17 @@ dependencies:
 
 ### Text Format for Detection
 
-URL : "This https://www.google.com/ will be detected as URL and navigate you to browser"
+URL    : Automatically detects when an URL is included in the text and navigate you to Browser
 
-Email : "This example@email.com will be detected as email and navigate you to email app with sample subject and body"
+Email  : Automatically detects when an email is included in the text and navigate you to Email
 
-Mobile : "This +919898989898 and 9898989898 will be detected as Phone Number and navigate you to Dialer"
+Mobile : Automatically detects when a mobile number is included in the text
 
-Bold : "This \*Sample Text\* will be Bold"
+Bold   : enclose your text in '*' e.g: \*Bold Text\*
 
-Italic : "This \_Sample Text\_ will be Italic"
+Italic : enclose your text in '_' e.g: \_Bold Text\_
 
-Cross : "This ~Sample Text~ will be Cross"
+Cross  : enclose your text in '~' e.g: \~Bold Text\~
 
 
 ### Simple use
@@ -52,7 +52,7 @@ ParseText(
 )
 ```
 
-<img src="https://github.com/dubey2k/parse_text/blob/master/screenshots/parse_text_default.jpg" width="30%" height="30%"/> <img src="https://github.com/dubey2k/parse_text/blob/master/screenshots/parse_text_colors.jpg" width="30%" height="30%"/> 
+<img src="https://raw.githubusercontent.com/dubey2k/parse_text/master/screenshots/parse_text_default.jpg" width="30%" height="30%"/> <img src="https://raw.githubusercontent.com/dubey2k/parse_text/master/screenshots/parse_text_colors.jpg" width="30%" height="30%"/> 
 
 
 
@@ -73,8 +73,11 @@ ParseText(
 |   parameter   |        description                                                                         |  default                          |
 | ------------- | ------------------------------------------------------------------------------------------ | --------------------------------- |              
 |   emailColor  |       The Color of text detected as Email                                                  |  Color.blue                       |
+| ------------- | ------------------------------------------------------------------------------------------ | --------------------------------- |              
 |   emailFW     |       The FontWeight of text detected as Email                                             |  FontWeight.w600                  |
+| ------------- | ------------------------------------------------------------------------------------------ | --------------------------------- |              
 |   emailSize   |       The Size of text detected as Email                                                   |  size (same as UnDetected Text)   |
+| ------------- | ------------------------------------------------------------------------------------------ | --------------------------------- |              
 |   emailStyle  |       The FontStyle of text detected as Email                                              |  FontStyle.normal                 |
                      
 ### Parameters for detected mobile text             
