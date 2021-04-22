@@ -19,7 +19,7 @@ Email  : Automatically detects when an email is included in the text and navigat
 
 Mobile : Automatically detects when a mobile number is included in the text
 
-Bold   : enclose your text in '*' e.g:  \*Bold Text\* ,  changeresult => *Bold*
+Bold   : enclose your text in '*' e.g:  \*Bold Text\* ,  result => *Bold*
 
 Italic : enclose your text in '_' e.g:  \_Bold Text\_  , result => _Italic_
 
