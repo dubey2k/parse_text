@@ -8,7 +8,7 @@ It is highly Customizable in terms of size, color, style, etc for each detected 
 
 ``` yaml
 dependencies:
-  parse_text: 0.0.2
+  parse_text: 0.0.3
 ```
 
 ### Text Format for Detection
@@ -70,21 +70,22 @@ ParseText(
 
 ### Parameters for detected email text
 
-|   parameter   |        description                                                                         |  default                          |
-| ------------- | ------------------------------------------------------------------------------------------ | --------------------------------- |
-|   emailColor  |       The Color of text detected as Email                                                  |  Color.blue                       |
-|   emailFW     |       The FontWeight of text detected as Email                                             |  FontWeight.w600                  |
-|   emailSize   |       The Size of text detected as Email                                                   |  size (same as UnDetected Text)   |
-|   emailStyle  |       The FontStyle of text detected as Email                                              |  FontStyle.normal                 |
+
+|   parameter   |       description                                                                           | default                          |
+| ------------- | ------------------------------------------------------------------------------------------- | -------------------------------- |
+|   emailColor  |       The Color of text detected as Email                                                   | Color.blue                       |
+|   emailFW     |       The FontWeight of text detected as Email                                              | FontWeight.w600                  |
+|   emailSize   |       The Size of text detected as Email                                                    | size (same as UnDetected Text)   |
+|   emailStyle  |       The FontStyle of text detected as Email                                               | FontStyle.normal                 |
                      
 ### Parameters for detected mobile text             
              
 |   parameter   |       description                                                                           | default                          |
 | ------------- | ------------------------------------------------------------------------------------------- | -------------------------------- |
-|   mobColor    |       The Color of text detected as mobile                                                  | Color.blue                       |
-|   mobFW       |       The FontWeight of text detected as mobile                                             | FontWeight.w600                  |
-|   mobSize     |       The Size of text detected as mobile                                                   | size (same as UnDetected Text)   |
-|   mobStyle    |       The FontStyle of text detected as mobile                                              | FontStyle.normal                 |
+|   mobColor    |       The Color of text detected as Mobile                                                  | Color.blue                       |
+|   mobFW       |       The FontWeight of text detected as Mobile                                             | FontWeight.w600                  |
+|   mobSize     |       The Size of text detected as Mobile                                                   | size (same as UnDetected Text)   |
+|   mobStyle    |       The FontStyle of text detected as Mobile                                              | FontStyle.normal                 |
              
 ### Parameters for detected url text             
              
