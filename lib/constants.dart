@@ -29,7 +29,7 @@ bool isEmail(String text) {
   return text.contains(email) ? true : false;
 }
 
-Map map = {
+Map<String, bool> map = {
   'bold': false,
   'italic': false,
   'cross': false,

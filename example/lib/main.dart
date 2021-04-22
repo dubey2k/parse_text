@@ -23,19 +23,12 @@ class MyApp extends StatelessWidget {
 class Home extends StatelessWidget {
   String text = '''
   It is an Example text!!
-
   +919999999990
-
   9999999999
-
   email@email.com
-
   https://www.google.com/
-
   *This portion of Text will be Bold*
-
   _This portion of Text will be Italic_
-
   ~This portion of Text will be Crossed~
   ''';
   @override
@@ -44,10 +37,13 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: const Text('ParseText Example'),
       ),
-      body: Center(
-        child: ParseText(
-          size: 16,
-          text: text,
+      body: Padding(
+        padding: const EdgeInsets.all(20.0),
+        child: Center(
+          child: ParseText(
+            size: 16,
+            text: text,
+          ),
         ),
       ),
     );

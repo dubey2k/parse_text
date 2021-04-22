@@ -17,6 +17,7 @@ List<String> extractor(String text) {
         if (map['bold']) {
           msg[size] += s;
           msg.add("");
+          map['bold'] = !map['bold'];
           size += 1;
         } else {
           msg.add("BO $s");
@@ -35,6 +36,7 @@ List<String> extractor(String text) {
         if (map['italic']) {
           msg[size] += s;
           msg.add("");
+          map['italic'] = !map['italic'];
           size += 1;
         } else {
           msg.add("IT $s");
@@ -53,6 +55,7 @@ List<String> extractor(String text) {
         if (map['cross']) {
           msg[size] += s;
           msg.add("");
+          map['cross'] = !map['cross'];
           size += 1;
         } else {
           msg.add("CR $s");
