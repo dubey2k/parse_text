@@ -19,11 +19,11 @@ Email  : Automatically detects when an email is included in the text and navigat
 
 Mobile : Automatically detects when a mobile number is included in the text
 
-Bold   : enclose your text in '*' e.g:  \*Bold Text\*   => *Bold*
+Bold   : enclose your text in '*' e.g:  \*Bold Text\*   result => *Bold*
 
-Italic : enclose your text in '_' e.g:  \_Bold Text\_   => _Italic_
+Italic : enclose your text in '_' e.g:  \_Bold Text\_   result => _Italic_
 
-Cross  : enclose your text in '~' e.g:  \~Bold Text\~   => ~Crossed~
+Cross  : enclose your text in '~' e.g:  \~Bold Text\~   result => ~Crossed~
 
 
 ### Simple use
