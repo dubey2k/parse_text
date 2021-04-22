@@ -23,7 +23,7 @@ Bold   : enclose your text in '*' e.g:  \*Bold Text\*   => *Bold*
 
 Italic : enclose your text in '_' e.g:  \_Bold Text\_   => _Italic_
 
-Cross  : enclose your text in '~' e.g:  \~Bold Text\~   => ~Bold~
+Cross  : enclose your text in '~' e.g:  \~Bold Text\~   => ~Crossed~
 
 
 ### Simple use
