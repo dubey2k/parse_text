@@ -12,8 +12,13 @@
 
 ## 0.0.2
 
-- Updated README.md file for better usability.
+- Bug Fixes!!
 
 ## 0.0.3
 
-- Updated README.md file for better usability.
+- Bug Fixes!!
+
+## 0.0.4
+
+- Bug Fixes!!
+- README.md updated

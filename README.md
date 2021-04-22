@@ -8,10 +8,10 @@ It is highly Customizable in terms of size, color, style, etc for each detected 
 
 ``` yaml
 dependencies:
-  parse_text: 0.0.3
+  parse_text: 0.0.4
 ```
 
-### Text Format for Detection
+## Text Format for Detection
 
 URL    : Automatically detects when an URL is included in the text and navigate you to Browser
 
@@ -26,7 +26,7 @@ Italic : enclose your text in '_' e.g:  \_Bold Text\_  , result => _Italic_
 Cross  : enclose your text in '~' e.g:  \~Bold Text\~  , result => ~Crossed~
 
 
-### Simple use
+## Simple use
 
 You can use `ParseText` as Text Widget
 
@@ -37,7 +37,7 @@ ParseText(
 )
 ```
 
-### Beautify Detected Texts
+## Beautify Detected Texts
 
 You can use multiple text beautification options with detected text formats.
 
@@ -68,7 +68,7 @@ ParseText(
 |   maxLine     |     maxLines of UnDetected Text                                                            |  infinite                         |
 |   style       |     FontStyle of UnDetected Text                                                           |  FontStyle.normal                 |
 
-### Parameters for detected email text
+## Parameters for detected email text
 
 
 |   parameter   |       description                                                                           | default                          |
@@ -78,7 +78,7 @@ ParseText(
 |   emailSize   |       The Size of text detected as Email                                                    | size (same as UnDetected Text)   |
 |   emailStyle  |       The FontStyle of text detected as Email                                               | FontStyle.normal                 |
                      
-### Parameters for detected mobile text             
+## Parameters for detected mobile text             
              
 |   parameter   |       description                                                                           | default                          |
 | ------------- | ------------------------------------------------------------------------------------------- | -------------------------------- |
@@ -87,7 +87,7 @@ ParseText(
 |   mobSize     |       The Size of text detected as Mobile                                                   | size (same as UnDetected Text)   |
 |   mobStyle    |       The FontStyle of text detected as Mobile                                              | FontStyle.normal                 |
              
-### Parameters for detected url text             
+## Parameters for detected url text             
              
 |   parameter   |       description                                                                           | default                          |
 | ------------- | ------------------------------------------------------------------------------------------- | -------------------------------- |
@@ -96,7 +96,7 @@ ParseText(
 |   urlSize     |       The Size of text detected as URL                                                      | size (same as UnDetected Text)   |
 |   urlStyle    |       The FontStyle of text detected as URL                                                 | FontStyle.normal                 |
              
-### Parameters for detected bold text             
+## Parameters for detected bold text             
              
 |   parameter   |       description                                                                           | default                          |
 | ------------- | ------------------------------------------------------------------------------------------- | -------------------------------  |
@@ -105,7 +105,7 @@ ParseText(
 |   boldSize    |       The Size of text detected as Bold                                                     | size (same as UnDetected Text)   |
 |   boldStyle   |       The FontStyle of text detected as Bold                                                | FontStyle.normal                 |
                
-### Parameters for detected italic text             
+## Parameters for detected italic text             
                
 |   parameter    |      description                                                                           | default                          |
 | -------------- | ------------------------------------------------------------------------------------------ | -------------------------------  |
@@ -113,7 +113,7 @@ ParseText(
 |   italicFW     |      The FontWeight of text detected as Itali                                              | FontWeight.normal                |
 |   italicSize   |      The Size of text detected as Italic                                                   | size (same as UnDetected Text)   |
                 
-### Parameters for detected email text             
+## Parameters for detected email text             
                
 |   parameter   |       description                                                                           | default                          |
 | ------------- | ------------------------------------------------------------------------------------------- | -------------------------------  |

@@ -150,7 +150,9 @@ class ParseText extends StatelessWidget {
             double tSize = size;
             TextDecoration dec = TextDecoration.none;
             String txt = inputList[idx];
-            String ss = inputList[idx].substring(0, 2);
+            String ss = inputList[idx].length > 2
+                ? inputList[idx].substring(0, 2)
+                : inputList[idx];
             switch (ss) {
               case "HT":
                 txtColor = urlColor;
