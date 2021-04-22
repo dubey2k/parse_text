@@ -1,6 +1,6 @@
 name: parse_text
 description: A Package to Detect different pattern in text and display it in Text Widget.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/dubey2k/parse_text
 environment:
   sdk: ">=2.7.0 <3.0.0"
