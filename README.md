@@ -64,9 +64,9 @@ ParseText(
 |   text        |     The Text which is supposed to parse                                                    |  required                         |
 |   color       |     The Color of UnDetected Text                                                           |  Color(0xFF424242)                |
 |   wt          |     The FontWeight of UnDetected Text                                                      |  FontWeight.normal                |
-|   align       |     The Alignment of UnDetected Text                                                       |  FontWeight.normal                |
-|   maxLine     |     maxLines of UnDetected Text                                                            |  FontWeight.normal                |
-|   style       |     FontStyle of UnDetected Text                                                           |  FontWeight.normal                |
+|   align       |     The Alignment of UnDetected Text                                                       |  TextAlign.start                  |
+|   maxLine     |     maxLines of UnDetected Text                                                            |  infinite                         |
+|   style       |     FontStyle of UnDetected Text                                                           |  FontStyle.normal                 |
 
 ### Parameters for detected email text
 
