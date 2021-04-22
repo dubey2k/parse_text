@@ -4,7 +4,6 @@ RegExp cross = RegExp(r"\~");
 RegExp mobile = RegExp(r"(\+[\d]{1,3}(\s))?([0-9]{10})");
 RegExp email = RegExp(r"\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+");
 RegExp regSpliter = RegExp(r'(?<=(\s))');
-RegExp tempBold = RegExp(r'\*');
 
 bool isUrl(String text) {
   return text.startsWith("http:") || text.startsWith("https:") ? true : false;
