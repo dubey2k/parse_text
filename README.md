@@ -52,8 +52,7 @@ ParseText(
 )
 ```
 
-![img](https://github.com/dubey2k/parse_text/blob/master/screenshots/parse_text_default.jpg)
-![img](https://github.com/dubey2k/parse_text/blob/master/screenshots/parse_text_colors.jpg)
+![img](https://github.com/dubey2k/parse_text/blob/master/screenshots/parse_text_default.jpg) ![img](https://github.com/dubey2k/parse_text/blob/master/screenshots/parse_text_colors.jpg)
 
 
 
