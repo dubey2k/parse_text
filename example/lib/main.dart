@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'ParseText Example',
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -26,8 +27,6 @@ class Home extends StatelessWidget {
   +919999999990
 
   9999999999
-
-  +91 9998887776
 
   email@email.com
 
@@ -49,14 +48,8 @@ class Home extends StatelessWidget {
         child: ParseText(
           size: 16,
           text: text,
-          emailColor: Colors.red,
-          urlColor: Colors.green,
-          mobColor: Colors.orange,
         ),
       ),
     );
   }
 }
-
-
-//flutter packages pub publish
