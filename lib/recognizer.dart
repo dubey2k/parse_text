@@ -23,6 +23,17 @@ TapGestureRecognizer launchCustom(String link, int type) {
           }
         };
       return tap;
+    case 6:
+      var tap = TapGestureRecognizer()
+        ..onTap = () async {
+          if (await canLaunch(link) != null) {
+            await launch(
+                'mailto:${link.substring(3)}?subject=Enter Your Subject here&body= Enter Your Body Text here');
+          } else {
+            throw 'Could not launch ${link}';
+          }
+        };
+      return tap;
     default:
       return null;
   }

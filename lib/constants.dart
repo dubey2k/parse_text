@@ -1,40 +1,37 @@
-RegExp bold = RegExp(r"\*(.*)|([a-zA-Z0-9 ]+)\*");
-RegExp italic = RegExp(r"\_(.*)|([\w\d ]+)\_");
-RegExp cross = RegExp(r"\~(.*)|([\w\d ]+)\~");
-RegExp mobile = RegExp(r"^[\+]?\d{10,12}");
+RegExp bold = RegExp(r"\*");
+RegExp italic = RegExp(r"\_");
+RegExp cross = RegExp(r"\~");
+RegExp mobile = RegExp(r"(\+[\d]{1,3}(\s))?([0-9]{10})");
+RegExp email = RegExp(r"\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+");
 RegExp regSpliter = RegExp(r'(?<=(\s))');
 RegExp tempBold = RegExp(r'\*');
 
 bool isUrl(String text) {
-  return text.startsWith("http:") ||
-          text.startsWith("https:") ||
-          text.startsWith("www")
-      ? true
-      : false;
+  return text.startsWith("http:") || text.startsWith("https:") ? true : false;
 }
 
-bool isBold(String text) {
-  return text.contains(bold) ? true : false;
+int isBold(String text) {
+  return bold.allMatches(text).length;
 }
 
-bool isTBold(String text) {
-  return text.contains(bold) ? true : false;
+int isItalic(String text) {
+  return italic.allMatches(text).length;
 }
 
-bool isItalic(String text) {
-  return text.contains(italic) ? true : false;
-}
-
-bool isCross(String text) {
-  return text.contains(cross) ? true : false;
+int isCross(String text) {
+  return cross.allMatches(text).length;
 }
 
 bool isMob(String text) {
   return text.contains(mobile) ? true : false;
 }
 
+bool isEmail(String text) {
+  return text.contains(email) ? true : false;
+}
+
 Map map = {
-    'bold': false,
-    'italic': false,
-    'cross': false,
-  };
+  'bold': false,
+  'italic': false,
+  'cross': false,
+};

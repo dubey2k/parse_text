@@ -23,9 +23,13 @@ class Home extends StatelessWidget {
   String text = '''
   It is an Example text!!
 
-  +919999999999
+  +919999999990
 
-  999999999999
+  9999999999
+
+  +91 9998887776
+
+  email@email.com
 
   https://www.google.com/
 
@@ -33,16 +37,22 @@ class Home extends StatelessWidget {
 
   _This portion of Text will be Italic_
 
-  ~This portion of Text will be Bold~
+  ~This portion of Text will be Crossed~
   ''';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('ParseText Example'),
+        title: const Text('ParseText Example'),
       ),
       body: Center(
-        child: ParseText(size: 16, text: text),
+        child: ParseText(
+          size: 16,
+          text: text,
+          emailColor: Colors.red,
+          urlColor: Colors.green,
+          mobColor: Colors.orange,
+        ),
       ),
     );
   }
