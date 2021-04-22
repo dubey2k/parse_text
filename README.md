@@ -8,7 +8,7 @@ It is highly Customizable in terms of size, color, style, etc for each detected 
 
 ``` yaml
 dependencies:
-  parse_text: 
+  parse_text: 0.0.1
 ```
 
 ### Text Format for Detection
